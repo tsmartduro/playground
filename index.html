@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TsmartDuro Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">TsmartDuro</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li class="dropdown">
+        <a href="#services">Services</a>
+        <ul class="dropdown-content">
+          <li><a href="#">App Development</a></li>
+          <li><a href="#">Cybersecurity</a></li>
+          <li><a href="#">Web Development</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Moving Balls Background -->
+  <div id="background-animation"></div>
+
+  <!-- Profile Section -->
+  <section id="home">
+    <img src="toyeeb.jpg" alt="Durojaiye Toyeeb" class="profile-pic">
+    <h1>Durojaiye Toyeeb</h1>
+    <h2>Known as Tsmartduro</h2>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <img src="html-logo.png" alt="HTML">
+      <p>HTML - 5+ years</p>
+    </div>
+    <div class="skill">
+      <img src="javascript-logo.png" alt="JavaScript">
+      <p>JavaScript - 4+ years</p>
+    </div>
+    <!-- Add other programming languages similarly -->
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am Durojaiye Toyeeb, known in the tech world as Tsmartduro, a passionate self-taught programmer with a strong background in app development and cybersecurity...
+      <!-- Continue with the full about description here -->
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">What would you like us to know?</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer Social Links -->
+  <footer>
+    <a href="https://linkedin.com" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+    <a href="https://github.com" target="_blank"><img src="github-logo.png" alt="GitHub"></a>
+    <a href="https://twitter.com" target="_blank"><img src="twitter-logo.png" alt="Twitter"></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
+

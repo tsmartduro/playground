@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7c500;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  nav .logo {
+    color: white;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li:hover {
+    background-color: #555;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content li {
+    padding: 10px;
+  }
+  
+  #background-animation {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    background-color: #111;
+    animation: ballMove 10s infinite alternate;
+  }
+  
+  @keyframes ballMove {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: green;
+    }
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+  }
+  
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+  
+  /* Skills */
+  #skills {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .skill {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 20px;
+    background-color: #eaeaea;
+    text-align: center;
+  }
+  
+  #about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #contact form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  #contact form input, #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: white;
+    margin: 0 10px;
+  }
+  
+  footer a img {
+    width: 30px;
+  }
+  
+  
